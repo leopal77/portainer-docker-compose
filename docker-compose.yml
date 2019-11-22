@@ -3,6 +3,7 @@ services:
   portainer:
     image: portainer/portainer
     container_name: portainer
+    rertart: always
     ports:
       - 8000:8000
       - 9000:9000
